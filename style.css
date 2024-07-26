@@ -1,0 +1,35 @@
+
+
+/* Components */
+
+.hero h1 {
+    color: rgb(5, 0, 0);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(139, 2, 61);
+    text-align:center;
+
+}
+
+h2.hero {
+    text-align: center;
+}
+
+p.intro {
+    text-align: center;
+}
+
+body {
+    background-color:rgb(183, 101, 137)
+
+}
+
+img {
+    display:block;
+    margin:auto;
+
+}
+
+
+
+
+
