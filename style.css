@@ -3,23 +3,26 @@
 /* Components */
 
 .hero h1 {
-    color: rgb(5, 0, 0);
+    color: #A2D4F6;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(139, 2, 61);
+    background-color: #583a47;
     text-align:center;
 
 }
 
 h2.hero {
     text-align: center;
+    color: #A2D4F6;
 }
 
 p.intro {
     text-align: center;
+    color: #A2D4F6;
 }
 
 body {
-    background-color:rgb(183, 101, 137)
+    background-color:#1C0222;
+    color:#A2D4F6
 
 }
 
@@ -29,7 +32,21 @@ img {
 
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
+li {
+    float: left;
+}
+  
+a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
 
 
 
