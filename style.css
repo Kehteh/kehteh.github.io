@@ -4,7 +4,7 @@
 
 .hero h1 {
     color: #A2D4F6;
-    font-family:"work sans", sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color: #583a47;
     text-align:center;
 
@@ -48,12 +48,7 @@ a {
     background-color: #dddddd;
 }
 
-h1.work-sans-<Main header> {
-    font-family: "Work Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <100>;
-    font-style: normal;
-  }
+
 
 
 
