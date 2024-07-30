@@ -1,8 +1,15 @@
+/* Base HTML Styles */
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Rubik:ital,wght@0,400;0,700;1,400&display=swap");
+
+/* :root {
+
+} */
+
 /* CSS Reset */
-html {
+html, body {
   box-sizing: border-box;
   font-size: 16px;
-  font-family: "Inter", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: var(--black);
   scroll-behavior: smooth;
 }
@@ -11,13 +18,17 @@ html {
 *:after {
   box-sizing: inherit;
 }
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Rubik", sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 body,
 h1,
@@ -47,16 +58,27 @@ select {
   font: inherit;
 }
 
+/* Flexbox party time */
+/* .flex-container {
+  display: flex;
+  flex-direction: column;
+} */
+
 /* Components */
+
 
 .hero h1 {
     color: #A2D4F6;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    text-align:center;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: x-large;
 
 }
 
-h2.hero {
+.hero h2 {
     text-align: center;
     color: #A2D4F6;
 }
@@ -66,13 +88,23 @@ p.intro {
     color: #A2D4F6;
 }
 
+p.bio {
+    text-align: center;
+    color: #A2D4F6;
+}
+
 body {
     background-color:#1C0222;
     color:#A2D4F6
+    
 
 }
 
 img {
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
     display:block;
     margin:auto;
 
