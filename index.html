@@ -16,56 +16,15 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-  .dropbtn {
-    background-color: #3498DB;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .dropbtn:hover, .dropbtn:focus {
-    background-color: #2980B9;
-  }
-  
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown a:hover {background-color: #ddd;}
-  
-  .show {display: block;}
-  </style>
-  </head>
 
+<body>
   <div class="dropdown">
     <button onclick="myFunction()" class="dropbtn">Menu</button>
     <div id="myDropdown" class="dropdown-content">
-      <a href="#projects">Projects</a>
+      <a href="projects.html">Projects</a>
       <a href="#cats">Cats</a>
       <a href="#contact">Contact</a>
     </div>
@@ -94,37 +53,37 @@
   </script>
 
 <header>
-    <section class="hero">
-      <img src=img\Kehteh.jpg   
-        alt="Katie"
-        width="400px" />
-      <h1>Hello World!</h1>
-      <p>Welcome to my personal profile! <br>Here you'll find an abundance of dry humour and cats.</p>
-    </section>
+  <h1>Hello World!</h1>
+  <p>Welcome to my personal profile! <br>Here you'll find an abundance of dry humour and cats.</p>
 </header>
 
-
-<body>
-  <section class="About">
+<main class="about">
+    <img src=img\Kehteh.jpg   
+    alt="Woman wearing pink blaser and bubble 'o bill earrings"
+    width="400px"/>
     <h2>About</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris <br>nisi ut aliquip ex ea commodo consequat. </p>
-  </section>
+    <p>Lorem ipsum dolor sit amet, consgit ectetur adipiscing elit, <br>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris <br>nisi ut aliquip ex ea commodo consequat. </p>
+</main>
+
+<section class="contact">
+  <h2>Get in touch!</h2>
+  <p>If you would like to connect with me, please fill out the below form!</p>
+  <form>
+      <label for="your-name">Your Name</label>
+      <input type="text" id="your-name">
+      <label for="your-email">Your email</label>
+      <input type="text" id="your-email">
+      <label for="message">Your Message</label>
+      <textarea name="message-text" id="message" rows="10"></textarea>
+      <input type="submit" value="Submit">
+  </form>
+</section>
+
+
+
+<!-- <footer class="socials">
+
+      
+</footer> -->
 </body>
-
-
-<footer>
-  <section class="Contact">
-    <h2>Get in touch!</h2>
-      <p>If you would like to connect with me, please fill out the below form!</p>
-      <form>
-          <label for="your-name">Your Name</label>
-          <input type="text" id="your-name">
-          <label for="message">Your Message</label>
-          <textarea name="message-text" id="message" rows="10"></textarea>
-          <input type="submit" value="Submit">
-      </form>
-  </section>
-
-
-</footer>
 </html>
