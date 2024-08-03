@@ -24,9 +24,9 @@
   <div class="dropdown">
     <button onclick="myFunction()" class="dropbtn">Menu</button>
     <div id="myDropdown" class="dropdown-content">
-      <a href="projects.html">Projects</a>
-      <a href="#cats">Cats</a>
-      <a href="#contact">Contact</a>
+      <a class="button" href="projects.html">Projects</a>
+      <a class="button" href="#cats">Cats</a>
+      <a class="button" href="#contact">Contact</a>
     </div>
   </div>
   
@@ -68,19 +68,40 @@
 <section class="contact">
   <h2>Get in touch!</h2>
   <p>If you would like to connect with me, please fill out the below form!</p>
-  <form>
+
+  <form action="https://formspree.io/f/myzgwbvw"
+  method="POST">
       <label for="your-name">Your Name</label>
       <input type="text" id="your-name">
+      
       <label for="your-email">Your email</label>
       <input type="text" id="your-email">
+
       <label for="message">Your Message</label>
       <textarea name="message-text" id="message" rows="10"></textarea>
       <input type="submit" value="Submit">
+
   </form>
 </section>
 
 <footer>
-<h3>Find me on socials</h3>
+<h3>Find me on socials!</h3>
+  <div class="socials">
+  <a class="socials-icon" href="https://www.linkedin.com/in/katie-connell-901b728b">
+    <img class="icon" src="./img/linkedin-svgrepo-com.svg"
+      alt="The Github logo: a black circle with the silhouette of a white cat, with one tentacle arm" />
+  </a>
+  <a class="socials-icon" href="https://www.instagram.com/kehtehdev/" title="@kehtehdev on Instagram">
+    <img class="icon" src="./img/instagram.svg"
+      alt="The Instagram logo: a rounded square camera with a purple-orange gradient filling the lines" />
+
+  <a class="socials-icon" href="https://github.com/Kehteh">
+    <img class="icon" src="./img/github.svg"
+      alt="The Github logo: a black circle with the silhouette of a white cat, with one tentacle arm" />
+  </a>
+  </div>
+
+
 
       
 </footer>
