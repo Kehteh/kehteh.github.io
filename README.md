@@ -137,6 +137,6 @@ In my search for the ideal nav menu I came across a JavaScript menu that I decid
 ####  JavaScript Menu 2 during mouse hover 
 ![A picture of a light blue rectangle that says "menu". Its bottom left, top left and top right corners are sharp, it's bottom right corner is rounded.](./project1pics/jsmenu2.png)
 
-####  JavaScript Menu 3 after toggle 
+####  JavaScript Menu 3 after mouse toggle 
 ![A picture of a light blue rectangle that says "menu". Its bottom left, top left and top right corners are sharp, it's bottom right corner is rounded. A short menu with two options sits below. Black text on white background. The first option is "home" and the second option is "projects".](./project1pics/jsmenu3.png)
 
