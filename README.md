@@ -12,7 +12,7 @@
 - [X] "Projects" section
 - [X] Links to external sites, e.g. GitHub and LinkedIn.
 
-I went with an oil slick/vapour wave colour palette. I wanted to explore the cozy game raelm so I added my own pixel art cat "Dumpling" that I would like to explore as a potential mascot for my personal branding. I included my original headshot that I applied to She Codes with, and used border-radius to crop it into a circle for aesthetic purposes. My biography proved to be the most difficult section on the page because it is quite long and having the lines flow in an reader-friendly manner was quite the task! My contact form is now functional and connected to Fromspree, with many friends testing it out to send me messages in their down time. My projects section is within it's own page connected via link to the main index page. It is a work progress as this of course is my first project. I've made space for 3 projects. At the foot of each of my pages I have included a footer with functioning links that open up in separate tabs for instagram, linked in and github these all are attached to my developing accounts on these sites.   
+I went with an oil slick/vapour wave colour palette. I wanted to explore the cozy game realm so I added my own pixel art cat "Dumpling" that I would like to explore as a potential mascot for my personal branding. I included my original headshot that I applied to She Codes with, and used border-radius to crop it into a circle for aesthetic purposes. My biography proved to be the most difficult section on the page because it is quite long and having the lines flow in a reader-friendly manner was quite the task! My contact form is now functional and connected to Fromspree, with many friends testing it out to send me messages in their down time. My projects section is within it's own page connected via link to the main index page. It is a work progress as this of course is my first project. I've made space for 3 projects. At the foot of each of my pages I have included a footer with functioning links that open up in separate tabs for instagram, linked in and github these all are attached to my developing accounts on these sites. I have also made sure to include a copyright declaration.  
 ​
 ### Technical
  Add a short paragraph describing the features below. What strategies or design decisions did you work from? 
@@ -138,5 +138,6 @@ In my search for the ideal nav menu I came across a JavaScript menu that I decid
 ![A picture of a light blue rectangle that says "menu". Its bottom left, top left and top right corners are sharp, it's bottom right corner is rounded.](./project1pics/jsmenu2.png)
 
 ####  JavaScript Menu 3 after mouse toggle 
-![A picture of a light blue rectangle that says "menu". Its bottom left, top left and top right corners are sharp, it's bottom right corner is rounded. A short menu with two options sits below. Black text on white background. The first option is "home" and the second option is "projects".](./project1pics/jsmenu3.png)
+![A picture of a light blue rectangle that says "menu". Its bottom left, top left and top right corners are sharp, it's bottom right corner is rounded. A short menu with two options sits below. Black t
+ext on white background. The first option is "home" and the second option is "projects".](./project1pics/jsmenu3.png)
 
