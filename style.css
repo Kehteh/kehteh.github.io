@@ -1,10 +1,6 @@
 /* Base HTML Styles */
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Rubik:ital,wght@0,400;0,700;1,400&display=swap");
 
-/* :root {
-
-} */
-
 /* CSS Reset */
 html, body {
   box-sizing: border-box;
@@ -59,6 +55,15 @@ textarea,
 select {
   font: inherit;
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;   
+}
+
+li {
+  float: left;
+}
 
 /* foundation */
 body {
@@ -70,7 +75,6 @@ body {
 .button {
   padding: 8px;
 }
-
 .dropbtn {
   background-color: #A2D4F6;;
   color: #1C0222;
@@ -80,20 +84,15 @@ body {
   cursor: pointer;
   margin-bottom: 5px;
   border-radius: 0px 0px 7px;
-
-
 }
 
 .dropbtn:hover, .dropbtn:focus {
-  background-color: #ded0e5;
-  
+  background-color: #ded0e5; 
 }
-
 .dropdown {
   position: relative;
   display: inline-block;
 }
-
 .dropdown-content {
   display: none;
   position: absolute;
@@ -104,23 +103,21 @@ body {
   z-index: 1;
   border-radius: 0px 7px 7px 0px;
 }
-
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-
+}
+.dropdown a:hover {
+  background-color: #ddd;
+}
+.show {
+  display: block;
 }
 
-.dropdown a:hover {background-color: #ddd;
-}
 
-.show {display: block;
-}
-
-
-/* Header */
+/* index-header */
 
 header {
   display: flex;
@@ -133,17 +130,19 @@ header {
   margin: 5px;
   border: 3px solid #bc78c7
 }
-
-
 h1 {
   color: #A2D4F6;
   text-align: center;
   padding: 30px;
   
 }
-
 .opener {
   font-size: 20px;
+  text-align: center;
+}
+.hello-dumpling {
+  font-size: 20px;
+  text-align: center;
 }
 
 /* Very important Dumpling CSS */
@@ -157,17 +156,14 @@ h1 {
   border-radius: 25px;
   background-color: #1C0222;
   margin: 20px 5px 20px 5px;
-
 }
 
 .dumps {
   max-width: 50%;
-  height: auto;
-  box-shadow: 10px 10px 20px #0000005e;
-  
+  height: auto;  
 }
 
-/* About */
+/* index-about */
 
 main {
   display: flex;
@@ -186,22 +182,22 @@ h2 {
 }
 
 .profile-pic {
-  max-width: 75%;
+  max-width: 50%;
   margin: 20px;
   border-radius: 200px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.368);
   border: 2px solid #05d7f7;
-
 }
 
 .bio {
   display:flex;
   flex-direction: column;
-  padding-bottom: 50px;
-  
+  text-align: left;
+  text-justify: left;
+  padding: 10px;  
 }
 
-/* Form */
+/* index-form */
 .contact {
   display: flex;
   flex-direction: column;
@@ -211,16 +207,20 @@ h2 {
   border: 3px solid #bc78c7
   
 }
-
+.connect {
+  font-size: 20px;
+  text-align: center;
+}
 form {
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 20px;
 }
 
 
-/* Footer */
+/* footer-all-pages */
 footer {
   display: flex;
   flex-direction: column;
@@ -233,16 +233,13 @@ footer {
   margin: 20px 5px 50px 5px;
   border: 3px solid #bc78c7
 }
-
 .socials {
   display: flex;
 }
-
 h3 {
   text-align: center;
   padding: 10px;
 }
-
 .socials-icon {
   width: 50px;
   height: 50px;
@@ -252,47 +249,102 @@ h3 {
   border-radius: 30px; 
   border: 2px solid #05d7f7;
 }
+.copyright {
+  text-align: center;
+}
 
 /* Text */
 
 p {
   margin-right: auto;
   margin-left: auto;
-  text-align: center;
+  text-align: left;
   width: fit-content;
   height: fit-content;
   padding: 10px;
-  /* border: 1px solid red; */
 }
 
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;   
-}
 
-li {
-    float: left;
-}
+/* Media Queries */
 
-/* Media Query */
-
-@media (min-width: 600px) {
+@media only screen and (min-device-width: 768px) and (max-device-width : 1023px) {
   header {
     padding-bottom: 50px;
-    margin-left: 350px;
-    margin-right: 350px;
-    border-radius: 100px;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    border-radius: 70px;
     border: 3px solid rgb(188, 120, 199)
-
   }
-
   .opener {
     text-align: center;
     font-size: 20px;
   }
-  
+  .pixkit-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 20px 100px 0px 100px; */
+    border-radius: 70px;
+  }
+  .dumps {
+    max-width: 250px;
+    /* height: auto; */
+    margin: auto
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 50px 20px 50px;
+    border-radius: 70px;
+  }
+  .profile-pic {
+    max-width: 250px;
+  }
+  .bio {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 20px;
+  }
+  .contact {
+    margin: 20px 100px 20px 100px;
+    border-radius: 70px;
+  }
+  footer {
+    margin: 20px 100px 20px 100px;
+    border-radius: 70px;
+  }
+  .socials-icon {
+    width: 60px;
+    height: 60px;
+    padding: 15px;
+    margin: 20px;
+    background-color: #c798ce;
+    border-radius: 30px; 
+  }
+  p {
+    padding: 20px 0px 50px 20px;
+
+  }
+   
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 2000px){
+  header {
+    padding-bottom: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 100px;
+    border: 3px solid rgb(188, 120, 199)
+  }
+  .opener {
+    text-align: center;
+    font-size: 20px;
+  }
   .pixkit-intro {
     display: flex;
     flex-direction: column;
@@ -300,7 +352,6 @@ li {
     align-items: center;
     margin: 20px 500px 0px 500px;
     border-radius: 100px;
-  
   }
   
   .dumps {
@@ -312,34 +363,26 @@ li {
   main {
     display: flex;
     flex-direction: row-reverse;
-
     border-radius: 100px;
   }
-
   .profile-pic {
-    margin: 30px;
+    max-width: 250px;
+    margin: 30px 50px 30px 20px;
+    margin-right: 100px;
     float: right;
-  
   }
-
   .bio {
-  padding-left: 30px;
-  padding-right: 30px;
+    padding: 50px;
+    margin: 100;
   }
-
   .contact {
-    margin-left: 400px;
-    margin-right: 400px;
+    margin: 20px 200px 20px 200px;
     border-radius: 100px;
   }
-
   footer {
-    margin-left: 350px;
-    margin-right: 350px;
+    margin: 20px 200px 20px 200px;
     border-radius: 100px;
-
   }
-
   .socials-icon {
     width: 60px;
     height: 60px;
@@ -347,9 +390,7 @@ li {
     margin: 20px;
     background-color: #c798ce;
     border-radius: 30px; 
-  
-  }
-  
+  }  
 }
 
 

@@ -1,6 +1,6 @@
 #  your_name_here - Portfolio Task
 ​
-[My portfolio site](link_to_your_site)
+[My portfolio](kehteh.github.io)
 ​
 ## Project Requirements
 
@@ -11,6 +11,8 @@
 - [ ] Functional Contact Form
 - [ ] "Projects" section
 - [ ] Links to external sites, e.g. GitHub and LinkedIn.
+
+I went with an oil slick/vapour wave colour palette. I wanted to explore the cozy game raelm so I added my own pixel art design "Dumpling" that I would like to explore as a potential mascot for my personal branding. I included my original headshot that I applied to She Codes with, and used border-radius to crop it into a circle for aesthetic purposes. My biography proved to be the most difficult section on the page because it is quite long and having the lines flow in an reader-friendly manner was quite the task!  
 ​
 ### Technical
  Add a short paragraph describing the features below. What strategies or design decisions did you work from? 
