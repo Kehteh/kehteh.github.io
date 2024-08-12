@@ -1,6 +1,6 @@
 #  Katie Connell - Portfolio Task
 ​
-[My portfolio](kehteh.github.io)
+[My portfolio](https://kehteh.github.io)
 ​
 ## Project Requirements
 
